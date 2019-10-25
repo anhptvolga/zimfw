@@ -44,3 +44,10 @@ zle-keymap-select () {
 }
 zle -N zle-keymap-select
 
+############################
+# Aliases
+#
+alias c='cat'
+alias tx='tmux'
+alias tcpu='top -o cpu'
+alias tmem='top -o mem'
