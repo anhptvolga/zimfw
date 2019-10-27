@@ -7,6 +7,8 @@
 
 export EDITOR='vim'
 
+setopt no_share_history
+
 bindkey -v # use like vim editor
 bindkey '^P' up-history
 bindkey '^N' down-history
