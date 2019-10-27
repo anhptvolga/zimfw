@@ -54,4 +54,5 @@ function dkmd {
 }
 
 # Source module files.
+source "${0:h}/_docker"
 source "${0:h}/alias.zsh"
