@@ -4,6 +4,8 @@ if [[ ! -z $fzf_base_dir ]]; then
     set -o vi
     # Options to fzf command
     export FZF_COMPLETION_OPTS='+c -x'
+    export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+    export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
     # Use fd (https://github.com/sharkdp/fd) instead of the default find
     # command for listing path candidates.
