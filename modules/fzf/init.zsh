@@ -1,4 +1,4 @@
-fzf_base_dir='/usr/local/Cellar/fzf/0.18.0'
+fzf_base_dir='/usr/local/Cellar/fzf/0.20.0'
 
 if [[ ! -z $fzf_base_dir ]]; then
     set -o vi
